@@ -28,12 +28,12 @@
 
 6. **جداول مقارنة وملاحظات التصنيع**
    - مقارنة بين طريقتي الحساب
-   - ملاحظات للمقاول
+   - ملاحظات للمقاولين
 
 ## المتطلبات
 
 ```bash
-pip install PyQt6 matplotlib python-docx reportlab ezdxf
+pip install PyQt6 matplotlib python-docx reportlab ezdxf numpy
 ```
 
 ## الاستخدام
@@ -41,14 +41,6 @@ pip install PyQt6 matplotlib python-docx reportlab ezdxf
 ```bash
 python shear_wall_design_pro.py
 ```
-
-## الملفات الرئيسية
-
-- `shear_wall_design_pro.py` - التطبيق الرئيسي
-- `dxf_exporter.py` - أداة تصدير AutoCAD
-- `pm_interaction.py` - فحص تفاعل P-M
-- `buckling_check.py` - فحص التحنيب
-- `input_validator.py` - التحقق من المدخلات
 
 ## المعايير المطبقة
 
